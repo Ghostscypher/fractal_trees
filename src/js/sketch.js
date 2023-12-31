@@ -34,7 +34,7 @@ function branch(len, recurse = true) {
         fill(
             random(LENGTH - LENGTH / 6, LENGTH),
             LENGTH,
-            LENGTH
+            LENGTH,
         );
         ellipse(0, 0, 10, 10);
     } else if (len == (LENGTH / 10)) {
